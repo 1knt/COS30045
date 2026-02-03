@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Smart Australia</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/PowerIcon.png" 
+             alt="Power Logo" 
+             class="logo" 
+             id="logoBtn">
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+            <li><a href="#" class="nav-link" data-page="televisions">Televisions</a></li>
+            <li><a href="#" class="nav-link" data-page="story">The Data Story</a></li>
+            <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="hero">
+            <h1>Welcome to Energy Smart Australia</h1>
+            <p>Your guide to energy-efficient appliances and sustainable living</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Understanding Energy Consumption in Australia</h2>
+            <p>Australian households use an average of 18-20 kWh of electricity per day. With rising energy costs and environmental concerns, choosing energy-efficient appliances has never been more important.</p>
+            <p>The Energy Rating Label helps you compare the energy efficiency of appliances. More stars mean better efficiency and lower running costs. A typical Australian household can save hundreds of dollars annually by choosing appliances with higher star ratings.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Why Energy Efficiency Matters</h2>
+            <p>Energy-efficient appliances reduce your electricity bills, lower your carbon footprint, and contribute to a more sustainable future for Australia. With electricity prices continuing to rise, the savings from efficient appliances compound over time.</p>
+            <p>The Australian government's Energy Rating scheme provides standardized information to help consumers make informed decisions about appliance purchases.</p>
+        </div>
+    </div>
+
+    <!-- Televisions Page -->
+    <div id="televisions" class="page">
+        <h1>Television Energy Efficiency Guide</h1>
+        <p>Compare energy ratings and running costs of popular TV models available in Australia.</p>
+
+        <div class="controls" id="controls">
+            <div>
+                <label for="filterType">Type:</label>
+                <select id="filterType">
+                    <option value="all">All Types</option>
+                    <option value="OLED">OLED</option>
+                    <option value="QLED">QLED</option>
+                    <option value="LED">LED</option>
+                </select>
+            </div>
+            <div>
+                <label for="filterBrand">Brand:</label>
+                <select id="filterBrand">
+                    <option value="all">All Brands</option>
+                </select>
+            </div>
+            <div>
+                <label for="sortBy">Sort by:</label>
+                <select id="sortBy">
+                    <option value="energy">Energy Rating (High to Low)</option>
+                    <option value="price-low">Price (Low to High)</option>
+                    <option value="price-high">Price (High to Low)</option>
+                    <option value="consumption">Energy Consumption (Low to High)</option>
+                </select>
+            </div>
+            <button class="reset-btn" id="resetBtn">Reset Filters</button>
+        </div>
+
+        <div id="tvContainer"></div>
+
+        <div class="content-card">
+            <h2>Tips for Reducing TV Energy Consumption</h2>
+            <p>• Turn off your TV when not in use rather than leaving it on standby</p>
+            <p>• Reduce screen brightness to comfortable levels</p>
+            <p>• Enable power-saving modes available in most modern TVs</p>
+            <p>• Consider screen size carefully - larger screens use more energy</p>
+            <p>• Look for TVs with high energy star ratings when purchasing</p>
+        </div>
+    </div>
+
+    <!-- The Data Story Page -->
+    <div id="story" class="page">
+
+        <div class="story-hero">
+            <h1>Understanding Australian TV Market Trends</h1>
+        </div>
+
+        <div class="story-section">
+            <h2>Audience</h2>
+            <p>Marketing Team of Samsung Electronics Australia</p>
+        </div>
+
+        <div class="story-section">
+            <h2>Characteristics</h2>
+            <p>Creativity, analytical thinking, communication skills</p>
+        </div>
+
+        <div class="story-section">
+            <h2>Goal</h2>
+            <p>To uncover what Australian consumers prefer in TV screen size, brand variety, and power-efficient screen technology — insights that can shape Samsung's product strategy and campaigns.</p>
+        </div>
+
+        <div class="story-section">
+            <h2>The Story</h2>
+            <p>By examining model diversity, screen size popularity, and energy performance, this story reveals how consumer demand aligns with efficiency and innovation, offering a roadmap for future marketing strategies.</p>
+            <p>When analyzing the number of available models by brand, Samsung, LG, and Sony emerge as the clear leaders in variety, each offering a wide portfolio of models that cater to different budgets and preferences. Samsung's strong presence in this category reflects both its market leadership and strategic flexibility in meeting diverse consumer needs.</p>
+            <p>In terms of energy consumption, the data reveals that QLED and LCD(LED) screens generally consume more power on average compared to older LCD technologies.</p>
+        </div>
+    </div>
+
+    <!-- About Us Page -->
+    <div id="about" class="page">
+        <h1>About Energy Smart Australia</h1>
+        
+        <div class="content-card">
+            <h2>Our Mission</h2>
+            <p>Energy Smart Australia is dedicated to helping Australian households make informed decisions about their appliance purchases and energy consumption. We believe that through education and accessible information, every Australian can contribute to a more sustainable future while saving money on energy bills.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>What We Do</h2>
+            <p>We provide comprehensive information about appliance energy efficiency, compare different models and technologies, and offer practical tips for reducing household energy consumption. Our resources are designed to be easy to understand and actionable for everyday Australians.</p>
+            <p>We stay up-to-date with the latest developments in energy-efficient technology and Australian energy regulations to ensure our information is always current and relevant.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Energy Efficiency in Australia</h2>
+            <p>Australia has one of the highest per capita energy consumption rates in the world. However, we also have tremendous solar potential and a growing commitment to renewable energy. By choosing energy-efficient appliances, Australian households can play a crucial role in reducing overall energy demand.</p>
+            <p>The Australian government's Energy Rating scheme has been instrumental in driving improvements in appliance efficiency, saving households billions of dollars collectively while reducing greenhouse gas emissions.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Get Involved</h2>
+            <p>Join thousands of Australian households making smarter energy choices. Explore our guides, compare appliances, and start your journey toward lower energy bills and a smaller carbon footprint today.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Energy Smart Australia | Your Name</p>
+        <p class="genai-acknowledgement">Website code and content generated with assistance from Claude AI (Anthropic)</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
